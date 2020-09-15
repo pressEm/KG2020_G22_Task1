@@ -2,7 +2,7 @@ package ru.vsu.cs.course1;
 
 import java.awt.*;
 
-public class DrawSun extends Component{
+public class DrawSun{
     public void draw(Graphics2D g, int x, int y, int r, int R, int n, Color color) {
         g.setColor(color);
         g.fillOval(x - r, y - r, 2 * r, 2 * r);
