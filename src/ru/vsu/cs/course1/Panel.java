@@ -12,8 +12,6 @@ public class Panel extends JPanel {
     private DrawSun sun;
     private DrawRoad road;
     private  DrawTree trees;
-//    private int width = 900;
-//    private int height = 600;
     private java.util.List<Flowers> flowersList = new ArrayList<>();
     private Flowers flowers;
     int[] xFlowers = new int[120];
@@ -21,15 +19,15 @@ public class Panel extends JPanel {
 
 
     public Panel() {
-        this.sun = new DrawSun((double) 3/4, (double) 1/6, 40, 70, 30, Color.orange);
-        this.houses = new DrawHouse((double) 1/90, (double) 1/2, 60, 200, 3);
-        this.board = new DrawBoard((double)4/9, (double) 4/6, 100);
-        this.clouds.add(new DrawCloud((double) 1/3, (double) 1/12, 10, Color.white));
-        this.clouds.add(new DrawCloud((double) 1/6, (double) 1/5, 10, new Color(0x616B75)));
-        this.clouds.add(new DrawCloud((double) 1/9, (double) 1/4, 7, new Color(0x607078)));
-        this.clouds.add(new DrawCloud((double) 74/90, (double) 1/3, 5, Color.white));
-        this.mountains = new DrawMountain((double) 2/3, (double) 1/2, 4);
-        this.road = new DrawRoad(new double[]{(double) 2/9, (double) 1/2, (double) 13/18, (double)11/18, (double)2/3, (double)5/18, (double)7/18}, new double[]{(double)1/2, (double) 5/6, (double) 1/2, (double)5/6, (double)1, (double)1, (double)55/60}, 7);
+        this.sun = new DrawSun(3./4, 1./6, 40, 70, 30, Color.orange);
+        this.houses = new DrawHouse(1./90,  1./2, 60, 200, 3);
+        this.board = new DrawBoard(4./9, 4./6, 100);
+        this.clouds.add(new DrawCloud(1./3,  1./12, 10, Color.white));
+        this.clouds.add(new DrawCloud(1./6,  1./5, 10, new Color(0x616B75)));
+        this.clouds.add(new DrawCloud( 1./9,  1./4, 7, new Color(0x607078)));
+        this.clouds.add(new DrawCloud(74./90, 1./3, 5, Color.white));
+        this.mountains = new DrawMountain( 2./3,  1./2, 4);
+        this.road = new DrawRoad(new double[]{2./9, 1./2, 13./18, (double)11/18, (double)2/3, (double)5/18, (double)7/18}, new double[]{(double)1/2, (double) 5/6, (double) 1/2, (double)5/6, (double)1, (double)1, (double)55/60}, 7);
         this.trees = new DrawTree((double) 1/4, (double) 2/5);
         for (int i = 0; i < xFlowers.length; i++) {
             xFlowers[i] = random(650, 870);
@@ -48,7 +46,7 @@ public class Panel extends JPanel {
         gr.fillRect(0, height/2, width, height);
 //        new DrawRoad(new int[]{200, 450, 650, 550, 600, 250, 350}, new int[]{300, 500, 300, 500, 600, 600, 550}, 7).draw(gr);
         sun.draw(gr, getWidth(), getHeight());
-//        road.draw(gr);
+        road.draw(gr, getWidth(), getHeight());
         houses.draw(gr, getWidth(), getHeight());
         mountains.draw(gr, getWidth(), getHeight());
         trees.draw(gr, getWidth(), getHeight());

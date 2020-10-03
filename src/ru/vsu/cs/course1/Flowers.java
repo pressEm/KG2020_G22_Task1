@@ -3,17 +3,11 @@ package ru.vsu.cs.course1;
 import java.awt.*;
 
 public class Flowers implements Drawable {
-//        private List x;
-//    private List y;
-//private int[] x;
-//    private int[] y;
     private int size;
     private int x0;
     private int y0;
 
     public Flowers(int size) {
-//        this.x = x;
-//        this.y = y;
         this.size = size;
     }
 
@@ -44,19 +38,6 @@ public class Flowers implements Drawable {
             g.fillOval(x[i] - size, y[i] - size, 4 * size / 3, 4 * size / 3);
         }
     }
-
-//    public void draw(Graphics g) {
-//        for (int i = 0; i < ; i++) {
-//            g.setColor(new Color(0xDA375D));
-//            for (int j = 0; j < 6; j++) {
-//                double a = 2 * Math.PI * j / 6;
-//                int x1 = (int) (x[i] + size * Math.cos(a));
-//                int y1 = (int) (y[i] + size * Math.sin(a));
-//                g.fillOval(x1 - size, y1 - size, 4 * size / 3, 4 * size / 3);
-//            }
-//            g.setColor(new Color(0xF4EC88));
-//            g.fillOval(x[i] - size, y[i] - size, 4 * size / 3, 4 * size / 3);
-//        }
 }
 
 //    public void draw(Graphics g) {

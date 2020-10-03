@@ -18,7 +18,8 @@ public class DrawRoad implements Drawable{
          int[] x = new int[kx.length];
          int[] y = new int[ky.length];
         for (int i = 0; i < x.length; i++) {
-            x[i] = (int)(kx*)
+            x[i] = (int)(kx[i]*width);
+            y[i] = (int)(ky[i]*height);
         }
         g.setColor(new Color(0x8C6000));
         g.fillPolygon(x, y, tops);
