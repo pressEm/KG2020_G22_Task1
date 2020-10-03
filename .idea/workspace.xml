@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a85c5cbf-0a40-4fea-9e05-0387b6ec4bf4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KGTask1.1/ru/vsu/cs/course1/DrawRoad.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KGTask1.1/ru/vsu/cs/course1/DrawRoad.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KGTask1.1/ru/vsu/cs/course1/Panel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KGTask1.1/ru/vsu/cs/course1/Panel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/vsu/cs/course1/DrawRoad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vsu/cs/course1/DrawRoad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/vsu/cs/course1/Flowers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vsu/cs/course1/Flowers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/vsu/cs/course1/Panel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vsu/cs/course1/Panel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,12 +78,41 @@
       <option name="project" value="LOCAL" />
       <updated>1601115862913</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="end">
+      <created>1601714600844</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601714600844</updated>
+    </task>
+    <task id="LOCAL-00003" summary="end">
+      <created>1601714644752</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601714644752</updated>
+    </task>
+    <task id="LOCAL-00004" summary="end">
+      <created>1601714654959</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601714654959</updated>
+    </task>
+    <task id="LOCAL-00005" summary="end">
+      <created>1601714772358</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1601714772358</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="flowers" />
-    <option name="LAST_COMMIT_MESSAGE" value="flowers" />
+    <MESSAGE value="end" />
+    <option name="LAST_COMMIT_MESSAGE" value="end" />
   </component>
   <component name="WindowStateProjectService">
     <state x="574" y="126" key="#com.intellij.ide.util.MemberChooser" timestamp="1601283318766">
@@ -99,10 +123,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="36" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.834@0.0.1536.834" timestamp="1601382146862" />
-    <state x="424" y="11" key="CommitChangelistDialog2" timestamp="1601714666868">
+    <state x="424" y="11" key="CommitChangelistDialog2" timestamp="1601714771433">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="424" y="11" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1601714666868" />
+    <state x="424" y="11" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1601714771433" />
     <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1601474194087">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
