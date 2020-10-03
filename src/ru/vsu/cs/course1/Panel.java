@@ -28,7 +28,7 @@ public class Panel extends JPanel {
         this.clouds.add(new DrawCloud(74./90, 1./3, 5, Color.white));
         this.mountains = new DrawMountain( 2./3,  1./2, 4);
         this.road = new DrawRoad(new double[]{2./9, 1./2, 13./18, 11./18, 2./3, 5./18, 7./18}, new double[]{1./2,  5./6, 1./2, 5./6, 1., 1., 55./60}, 7);
-        this.trees = new DrawTree((double) 1/4, (double) 2/5);
+        this.trees = new DrawTree(1./4, 2./5);
         for (int i = 0; i < xFlowers.length; i++) {
             xFlowers[i] = random(650, 870);
             yFlowers[i] = random(320, 550);
